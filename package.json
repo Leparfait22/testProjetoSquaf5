@@ -1,0 +1,30 @@
+{
+  "name": "desafio-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "dependencies": {
+    "aws-sdk": "^2.1692.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10",
+    "rss-parser": "^3.13.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Compass-pb-aws-2025-AGOSTO/sprints-2-3-agosto.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Compass-pb-aws-2025-AGOSTO/sprints-2-3-agosto/issues"
+  },
+  "homepage": "https://github.com/Compass-pb-aws-2025-AGOSTO/sprints-2-3-agosto#readme"
+}

@@ -56,7 +56,7 @@ app.get("/api/url-publica", (req, res) => {
 // -> Consultar JSON via URL pública
 app.get("/api/consultar", async (req, res) => {
   try {
-    const urlPublica = getPublicUrl();
+    const urlPublica = process.env.PUBLIC_URL;
     const dados = await consultarJson(urlPublica);
     // console.log(dados);
     res.json(dados);

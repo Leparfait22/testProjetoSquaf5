@@ -15,5 +15,5 @@ function getPublicUrl() {
   return url;
 }
 
-getPublicUrl();
+// getPublicUrl();
 module.exports = { getPublicUrl };
